@@ -61,7 +61,13 @@
     }
   },
   "release": {
+    "projects": ["my-app", "lib-A"],
+    "projectsRelationship": "independent",
+    "changelog": {
+      "projectChangelogs": true
+    },
     "version": {
+      "conventionalCommits": true,
       "preVersionCommand": "npx nx run-many -t build"
     }
   }
