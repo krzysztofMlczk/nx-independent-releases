@@ -14,3 +14,4 @@ Run `nx test lib-A` to execute the unit tests via [Jest](https://jestjs.io).
 ## `fix(lib-A): fix something`
 ## `fix(lib-a): fix something else`
 ## `feat: add new feature`
+## `fix(lib-a): fix something`
